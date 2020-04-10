@@ -30,12 +30,11 @@ private LocalDate birthDate;
         return birthDate;
     }
 
-//        public Person(String name, Integer age, String gender, LocalDate birthday){
-//    this.name = name;
-//    this.age = age;
-//    this.gender = gender;
-//    this.birthDate = birthDate;
-//}
+     public Person(String name, Integer age, String gender){
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+}
 
     public void setGender() {
         this.gender = gender;
