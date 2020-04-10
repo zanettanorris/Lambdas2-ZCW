@@ -47,4 +47,3 @@ public class PersonTest {
         assertFalse(test.test(test));
     }
 }
-}
